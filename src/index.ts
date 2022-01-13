@@ -1,3 +1,3 @@
-export const main = () => 'Kirishima ship ready to serve !';
-
-export default main;
+export * from './lib/fetch';
+export * from './lib/types';
+export * from './lib/QueryError';
