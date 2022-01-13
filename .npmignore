@@ -29,6 +29,7 @@ gh
 wiki/
 
 # Additional ignore
+.github
 .gitignore
 tsconfig.json
 src/

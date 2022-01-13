@@ -34,7 +34,7 @@ interface JsonPlaceholderResponse {
 }
 
 // Fetch the data. No need to call `.json()` after making the request!
-const data = await fetch<JsonPlaceholderResponse>('https://jsonplaceholder.typicode.com/todos/1', FetchResultTypes.JSON);
+const data = await fetch<JsonPlaceholderResponse>('https://jsonplaceholder.typicode.com/todos/1', undefined, FetchResultTypes.JSON);
 
 // Do something with the data
 console.log(data.userId);
