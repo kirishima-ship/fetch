@@ -13,6 +13,7 @@ usage may same with `@sapphire/fetch`
 # Features
 - Written in TypeScript
 - Exported const enum for the common return data types.
+- Support ESM & CommonJS
 
 # Installation
 
