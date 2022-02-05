@@ -1,12 +1,10 @@
 {
+	"extends": "@sapphire/ts-config",
 	"compilerOptions": {
 		"rootDir": "./src",
-		"target": "ESNext",
 		"outDir": "./dist",
 		"composite": true,
 		"preserveConstEnums": true,
-		"allowSyntheticDefaultImports": true,
-		"moduleResolution": "node"
 	},
 	"include": ["src/**/*.ts"],
 	"exclude": ["node_modules"]

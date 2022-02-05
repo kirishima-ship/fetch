@@ -35,4 +35,4 @@ tsconfig.json
 src/
 .eslintrc
 tsconfig.eslint.json
-tsup.config.ts
+build.config.ts
